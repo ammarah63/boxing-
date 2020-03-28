@@ -1,0 +1,22 @@
+.header {
+    background-color: #00000054;
+}
+.logo {
+    width: 80px;
+    border-radius: 100px;
+}
+.center-nav a{
+    color: black;
+    margin: 0 10px;
+}
+.center-nav a:hover{
+    color: grey;
+}
+.right-nav a{
+    color: black;
+    margin: 10px;
+}
+.brand-text {
+    color: black;
+    margin: 0 10px;
+}
