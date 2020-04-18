@@ -1,0 +1,27 @@
+.contactus {
+    padding: 2.5%;
+    background-image: url(../assets/images/contactform.jpg); 
+    width: 50%;
+    display: inline-block;
+}
+h2 {
+    text-align: center;
+}
+label{
+    color: white;
+}
+.contact1{
+    background-color: rgb(12, 10, 10);
+    width: 100%;
+}
+.contact-text {
+    color: ghostwhite;
+}
+.contact2 {
+    color: white;
+    padding: 2.5%;
+    display: inline-block;
+    padding-top: 2.5%;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+}

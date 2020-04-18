@@ -12,7 +12,7 @@ function Header() {
 
     return (
         <Navbar collapseOnSelect expand="lg" className="header">
-            {/* <Container > */}
+        <Container >
             <Navbar.Brand>
                 <Link to="/">
                     <Image className="logo" src={require('../assets/images/logo.png')} draggable={false} />
@@ -37,13 +37,13 @@ function Header() {
                 <Nav className="right-nav">
                     <Form inline>
                         <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-                        <Button variant="outline-success">Search</Button>
+                        <Button variant="secondary">Search</Button>
                     </Form>
                     <Link to="/login">Login</Link>
                     <Link to="/sign-up">Sign Up</Link>
                 </Nav>
             </Navbar.Collapse>
-            {/* </Container> */}
+            </Container> 
         </Navbar>
     );
 }

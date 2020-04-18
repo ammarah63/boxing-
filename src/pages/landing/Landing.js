@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
-import { Container, Row, Col, Image } from "react-bootstrap";
+//import { Container, Row, Col, Image } from "react-bootstrap";
 import Header from '../../uiComponent/Header'
 import Footer from '../../uiComponent/Footer'
-
+import Slider from '../../uiComponent/Slider'
+import Products from '../../uiComponent/products'
+import Contact from '../../uiComponent/contact'
 
 // class Landing extends Component(){
 //     render(){
@@ -32,7 +34,16 @@ export default class Landing extends Component {
           <Header />
           {/* <HeaderSection /> */}
         </div>
-        {/* <Footer /> */}
+        <div>
+          <Slider />
+        </div>
+        <div>
+          <Products /> 
+        </div>
+        <div>
+          <Contact/>
+          </div>
+         <Footer /> 
       </div>
     )
   }
